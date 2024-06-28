@@ -56,14 +56,33 @@
 *.projdata
 *.tvsconfig
 *.dsk
+*.dof
 
 # Delphi history and backups
 __history/
 __recovery/
 *.~*
 
+# Lazarus  backups
+backup/
+
+# Lazarus Debug Fils
+*.dbg
+
+# Lazarus Compiled Files
+lib/
+
 # Castalia statistics file (since XE7 Castalia is distributed with Delphi)
 *.stat
 
 # Boss dependency manager vendor folder https://github.com/HashLoad/boss
 modules/
+*.bak
+demo/lazarus/FPDFPascalTeste.pdf
+*.lps
+*.res
+
+# Test generated files
+*.pdf
+/demo/delphi/*.skincfg
+/demo/delphi/reports/*.skincfg
